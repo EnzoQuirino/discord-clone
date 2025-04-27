@@ -30,7 +30,8 @@ This project was built using the following technologies:
 
 You can view the live version of this project deployed on **Netlify** at the following link:
 
-[**Discord UI Clone - Live Demo**]([https://discord-clone.netlify.app/](https://velvety-monstera-a1264f.netlify.app/))
+[**Discord UI Clone - Live Demo**](https://velvety-monstera-a1264f.netlify.app/)
+
 
 ---
 

@@ -1,51 +1,37 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# Discord UI Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **Discord UI clone** built with **ReactJS**, **TypeScript**, and **styled-components**. This project was developed while following a class from **Rocketseat** to practice and improve modern frontend skills.
 
-## Available Scripts
+The project replicates the core user interface of Discord, focusing on creating a clean and responsive design that mimics Discord's layout and user interactions.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Text Channels**: Create and interact in chat channels, styled to resemble Discord's design.
+- **Voice Channels**: Join voice channels (UI-only, without real functionality).
+- **Responsive Design**: The interface adjusts to different screen sizes, making it mobile-friendly.
+- **Server List**: Display and navigate through different servers, styled with sidebars similar to Discord's.
+- **Channel Switching**: Easily switch between text and voice channels.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 🔧 Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This project was built using the following technologies:
 
-### `npm run build`
+- **React.js**: JavaScript library for building user interfaces.
+- **TypeScript**: Strongly typed programming language that builds on JavaScript.
+- **styled-components**: Library for styling components with tagged template literals.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 💻 How to Run the Project Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
 
-### `npm run eject`
+Make sure you have **Node.js** and **npm** (or **yarn**) installed on your machine. You can check if you have them installed by running:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-=======
-# discord-clone
-A Discord UI clone built with ReactJS, TypeScript, and styled-components. Developed while following a Rocketseat class to practice and improve modern frontend skills.
->>>>>>> 4b8e086cd28a673e6c9594956f533cae6c472975
+```bash
+node -v
+npm -v

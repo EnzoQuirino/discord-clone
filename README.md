@@ -9,10 +9,8 @@ The project replicates the core user interface of Discord, focusing on creating 
 ## 🚀 Features
 
 - **Text Channels**: Create and interact in chat channels, styled to resemble Discord's design.
-- **Voice Channels**: Join voice channels (UI-only, without real functionality).
 - **Responsive Design**: The interface adjusts to different screen sizes, making it mobile-friendly.
-- **Server List**: Display and navigate through different servers, styled with sidebars similar to Discord's.
-- **Channel Switching**: Easily switch between text and voice channels.
+- **Server List**: Display through different servers, styled with sidebars similar to Discord's.
 
 ---
 

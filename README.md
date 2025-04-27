@@ -26,6 +26,14 @@ This project was built using the following technologies:
 
 ---
 
+## 🌐 Live Demo on Netlify
+
+You can view the live version of this project deployed on **Netlify** at the following link:
+
+[**Discord UI Clone - Live Demo**]([https://discord-clone.netlify.app/](https://velvety-monstera-a1264f.netlify.app/))
+
+---
+
 ## 💻 How to Run the Project Locally
 
 ### Prerequisites

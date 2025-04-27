@@ -35,6 +35,15 @@ export const Container = styled.div`
       color: var(--white);
     }
   }
+
+  /* Media Query para telas menores que 763px */
+  @media (max-width: 763px) {
+    padding: 6px 2px; /* Diminui o padding para ajustar o layout */
+
+    > div span {
+      font-size: 9px; /* Diminui o tamanho da fonte */
+    }
+  }
 `;
 
 export const HashtagIcon = styled(Hashtag)`
@@ -42,6 +51,12 @@ export const HashtagIcon = styled(Hashtag)`
   height: 20px;
 
   color: var(--symbol);
+
+  /* Ajuste para telas menores que 763px */
+  @media (max-width: 763px) {
+    width: 16px; /* Diminui o tamanho do ícone */
+    height: 16px;
+  }
 `;
 
 export const InviteIcon = styled(PersonAdd)`
@@ -55,6 +70,12 @@ export const InviteIcon = styled(PersonAdd)`
 
   &:hover {
     color: var(--white);
+  }
+
+  /* Ajuste para telas menores que 763px */
+  @media (max-width: 763px) {
+    width: 14px; /* Diminui o tamanho do ícone */
+    height: 14px;
   }
 `;
 
@@ -71,5 +92,11 @@ export const SettingsIcon = styled(Settings)`
 
   &:hover {
     color: var(--white);
+  }
+
+  /* Ajuste para telas menores que 763px */
+  @media (max-width: 763px) {
+    width: 14px; /* Diminui o tamanho do ícone */
+    height: 14px;
   }
 `;

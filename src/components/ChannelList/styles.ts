@@ -12,7 +12,6 @@ export const Container = styled.div`
   background-color: var(--secondary);
 `;
 
-
 export const Category = styled.div`
   display: flex;
   align-items: center;
@@ -26,6 +25,13 @@ export const Category = styled.div`
     font-weight: 500;
     color: var(--gray);
   }
+
+  /* Media Query para telas menores que 763px */
+  @media (max-width: 763px) {
+    > span {
+      font-size: 10px; /* Diminui o tamanho da fonte */
+    }
+  }
 `;
 
 export const AddCategoryIcon = styled(Add)`
@@ -34,4 +40,10 @@ export const AddCategoryIcon = styled(Add)`
 
   color: var(--symbol);
   cursor: pointer;
+
+  /* Media Query para telas menores que 763px */
+  @media (max-width: 763px) {
+    width: 18px;  /* Diminui o tamanho do ícone */
+    height: 18px;
+  }
 `;

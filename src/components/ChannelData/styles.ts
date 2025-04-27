@@ -8,6 +8,12 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--primary);
+
+   /* Media Query para telas menores que 763px */
+  @media (max-width: 763px) {
+    grid-column-start: 3; /* Começa a partir da segunda coluna */
+    grid-column-end: 6;   /* Vai até a quarta coluna (final do grid) */
+  }
 `;
 
   

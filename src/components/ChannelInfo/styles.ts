@@ -12,8 +12,14 @@ export const Container = styled.div`
 
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
   z-index: 2;
-`;
 
+  /* Media Query para telas menores que 763px */
+  @media (max-width: 763px) {
+    /* Expande o Container para a direita sem afetar a posição dos outros elementos */
+    grid-column-start: 3; /* Começa a partir da segunda coluna */
+    grid-column-end: 6;   /* Vai até a quarta coluna (final do grid) */
+  }
+`;
 export const HashtagIcon = styled(Hashtag)`
   width: 24px;
   height: 24px;

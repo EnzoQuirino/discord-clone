@@ -26,8 +26,8 @@ export const HashtagIcon = styled(Hashtag)`
   color: var(--symbol);
 
   @media (max-width: 435px) {
-    width: 25px;
-    height: 25px; 
+    width: 20px;
+    height: 20px; 
     }
 `;
 
@@ -40,8 +40,8 @@ export const Title = styled.h1`
   color: var(--white);
 
   @media (max-width: 435px) {
-    font-size: 16px;
-    margin-left: 9px
+    font-size: 14px;
+    margin-left: 2px
     }
 `;
 

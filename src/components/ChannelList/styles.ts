@@ -25,8 +25,7 @@ export const Category = styled.div`
     font-weight: 500;
     color: var(--gray);
   }
-
-  /* Media Query para telas menores que 763px */
+    
   @media (max-width: 763px) {
     > span {
       font-size: 10px; /* Diminui o tamanho da fonte */

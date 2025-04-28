@@ -9,10 +9,10 @@ export const Container = styled.div`
   justify-content: space-between;
   background-color: var(--primary);
 
-   /* Media Query para telas menores que 763px */
+
   @media (max-width: 763px) {
-    grid-column-start: 3; /* Começa a partir da segunda coluna */
-    grid-column-end: 6;   /* Vai até a quarta coluna (final do grid) */
+    grid-column-start: 3; 
+    grid-column-end: 6;   
   }
 `;
 
@@ -69,6 +69,14 @@ export const Input = styled.input`
     left: 14px;
     transition: 180ms ease-in-out;
   }
+  
+  @media (max-width: 435px) {
+    padding: 0 8px 0 40px;
+  }
+
+  @media (max-width: 390x) {
+    padding: 0 5px 0 20px;
+  }
 `;
 
 export const InputIcon = styled(AlternateEmail)`
@@ -76,4 +84,9 @@ export const InputIcon = styled(AlternateEmail)`
   height: 24px;
 
   color: var(--gray);
+
+  @media (max-width: 435px) {
+    width: 20px;
+    height: 20px;
+    }
 `;

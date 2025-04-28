@@ -13,11 +13,10 @@ export const Container = styled.div`
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
   z-index: 2;
 
-  /* Media Query para telas menores que 763px */
+
   @media (max-width: 763px) {
-    /* Expande o Container para a direita sem afetar a posição dos outros elementos */
     grid-column-start: 3; /* Começa a partir da segunda coluna */
-    grid-column-end: 6;   /* Vai até a quarta coluna (final do grid) */
+    grid-column-end: 6;   /* Vai até a sexta coluna (final do grid) */
   }
 `;
 export const HashtagIcon = styled(Hashtag)`
@@ -25,6 +24,11 @@ export const HashtagIcon = styled(Hashtag)`
   height: 24px;
 
   color: var(--symbol);
+
+  @media (max-width: 435px) {
+    width: 25px;
+    height: 25px; 
+    }
 `;
 
 export const Title = styled.h1`
@@ -34,6 +38,11 @@ export const Title = styled.h1`
   font-weight: bold;
 
   color: var(--white);
+
+  @media (max-width: 435px) {
+    font-size: 16px;
+    margin-left: 9px
+    }
 `;
 
 export const Separator = styled.div`
@@ -44,9 +53,17 @@ export const Separator = styled.div`
   opacity: 0.2;
 
   margin: 0 13px;
+
+  @media (max-width: 435px) {
+    height: 0px; 
+    }
 `;
 
 export const Description = styled.span`
   font-size: 15px;
   color: var(--gray);
+
+  @media (max-width: 435px) {
+    font-size: 0px; 
+    }
 `;

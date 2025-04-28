@@ -31,6 +31,11 @@ export const Avatar = styled.div`
   &.bot {
     background-color: var(--mention-detail);
   }
+  
+  @media (max-width: 435px) {
+    width: 20px;
+    height: 20px;
+  }
 `;
 
 export const Message = styled.div`
@@ -63,6 +68,7 @@ export const Header = styled.div`
     text-transform: uppercase;
     font-weight: bold;
     font-size: 11px;
+
   }
 
   > time {
@@ -70,12 +76,29 @@ export const Header = styled.div`
     color: var(--gray);
     font-size: 13px;
   }
+  
+  @media (max-width: 435px) {
+    > strong {
+      font-size: 11px; 
+    }
+    > time {
+      font-size: 9px;
+    }
+    > span {
+      font-size: 8px;
+      padding: 2px 3px;
+      border-radius: 3px; 
+    }
 `;
 
 export const Content = styled.div`
   text-align: left;
   font-size: 16px;
   color: var(--white);
+
+  @media (max-width: 435px) {
+      font-size: 11px; 
+    
 `;
 
 export const Mention = styled.span`

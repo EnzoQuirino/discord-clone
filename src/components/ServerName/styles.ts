@@ -12,6 +12,10 @@ export const Container = styled.div`
 
   box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px 0px;
   z-index: 2;
+
+  @media (max-width: 763px) {
+    padding: 0 8px 0 10px;
+  }
 `;
 
 export const Title = styled.h1`
@@ -19,6 +23,10 @@ export const Title = styled.h1`
   font-weight: bold;
 
   color: var(--white);
+
+  @media (max-width: 763px) {
+    font-size: 13px; /* Diminui o tamanho da fonte */
+  }
 `;
 
 export const ExpandIcon = styled(ExpandMore)`
